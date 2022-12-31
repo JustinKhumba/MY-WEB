@@ -1,0 +1,215 @@
+*
+{
+	box-sizing:border-box;
+}
+
+
+/*floating bar*/
+#nav-menu
+{
+	position:fixed;
+	bottom:4%;
+	width:90%;
+	height:10%;
+	background-color:rgba(230,100,250,0.6);
+	padding: 0px;
+	box-sizing: border-box;
+	align-items: center;
+	border-radius:0 25px 25px 0;
+}
+
+
+#logo-home
+{
+	width:15%;
+	height:100%;
+	float:left;
+	margin-top:%;
+	margin-left:1%;
+	margin-right:5%;
+
+}
+#logo-home a img
+{
+	height:100%;
+	bottom:0;
+	padding:0;
+}
+
+#logo-market
+{
+	width:15%;
+	height:100%;
+	float:left;
+	margin-top:%;
+	margin-left:5%;
+	margin-right:5%;
+
+}
+#logo-market a img
+{
+	height:100%;
+	bottom:0;
+	padding:0;
+}
+
+
+#logo-chats
+{
+	width:15%;
+	height:100%;
+	float:left;
+	margin-top:%;
+	margin-left:5%;
+	margin-right:5%;
+
+}
+#logo-chats a img
+{
+	height:100%;
+	bottom:0;
+	padding:0;
+}
+
+
+#logo-info
+{
+	width:15%;
+	height:100%;
+	float:left;
+	margin-top:%;
+	margin-left:5%;
+	margin-right:5%;
+
+}
+#logo-info a img
+{
+	height:100%;
+	bottom:0;
+	padding:0;
+}
+
+#fixed-button
+{
+		width:60%;
+		height:100%;
+		float:right;
+		top:0;
+}
+
+#fixed-button table
+{
+
+	width:100%;
+	height:50%;
+}
+
+#fixed-button table tr
+{
+	margin:0;
+	padding:0;
+	 
+}
+
+#fixed-button table tr td
+{
+	width:15%;
+	text-align:center;
+	background-color:rgba(0,0,0,0.95	);
+	border-radius:25px 25px 25px 25px;
+	
+}
+/*-------------end of floating bar--------------*/
+/*-------------end of floating bar--------------*/
+
+
+
+
+.logo 
+{
+	width:100%;
+}
+
+.logo a img
+{
+	width:20%;
+}
+
+#menu
+{
+	width:100%;
+	margin:0;
+	padding:0px;
+	min-height:50px;
+	line-height:50px;
+	margin-bottom:20px;
+	background-color:red;
+}
+
+		#menu table tr
+		{
+			list-style-type:none;
+		}
+		#menu table tr td
+		{
+			float:left;
+			width: 100px;
+			text-align:center;
+			background-color:limegreen;
+		}
+	.clearfix::after
+	{
+		content:" ";
+		display:block;
+		clear:both;
+	}
+
+#main
+{
+	width:100%;
+	border:2px solid red;
+	margin-bottom:20px;
+	background-color:black;
+}
+
+		.l-bar
+		{
+			min-height:100px;
+			margin:2%;
+			float:left;
+			width:26%;
+			padding:0px;
+			border:2px solid green;
+				background-color:aqua;
+		}
+
+		.content
+		{
+			min-height:100px;
+			margin:2%;
+			float:right;
+			width:66%;
+			padding:0px;
+			border:2px solid green;
+			background-color:aqua;
+		}
+
+#f-pics
+{
+
+	width:100%;
+	margin-bottom:20px;
+
+}
+
+.pics img
+{
+	width:25%;
+	float:left;
+	padding:5px;
+}
+
+.footer
+{
+	width:50%;
+}
