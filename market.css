@@ -14,9 +14,12 @@
 
 body{
 	background-color:black;	
-	color:white;
+	
 }
 
+div{
+	color:white;	
+}
 
 /*
 #nav:hover
